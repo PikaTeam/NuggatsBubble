@@ -30,6 +30,10 @@ public class TargetRunner : MonoBehaviour
     public Vector3 currentfood ;
     public static List<Vector3> availablefood = new List<Vector3>();
 
+    //the points recorders.
+    public static int yourscrore = 0;
+    public static int rodisscrore = 0;
+
 
     //we make just one curutirtion 
     public bool curstart = false;
@@ -146,7 +150,7 @@ public class TargetRunner : MonoBehaviour
                 }
 
             }
-            yield return new WaitForSeconds(7);
+            yield return new WaitForSeconds(4);
         }
     }
 

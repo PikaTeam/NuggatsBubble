@@ -11,6 +11,7 @@ public class EatFood : MonoBehaviour
         if (other.gameObject.tag == tag)
         {
             Destroy(other.gameObject);
+            TargetRunner.rodisscrore = TargetRunner.rodisscrore + 10;
             //TargetRunner.availablefood.RemoveAt(0);
 
         }

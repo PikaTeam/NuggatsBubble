@@ -15,6 +15,7 @@ public class Food : MonoBehaviour
             {
                 Debug.Log("yammy");
                 Destroy(gameObject);
+                TargetRunner.yourscrore = TargetRunner.yourscrore + 10;
                 //TargetRunner.availablefood.Remove(other.transform.position);
 
             }
